@@ -7,5 +7,5 @@ class HomeBindings extends Bindings{
     // TODO: implement dependencies
     Get.put(HomeController());
   }
-
 }
+

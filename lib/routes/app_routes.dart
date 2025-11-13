@@ -10,3 +10,4 @@ class AppRoutes{
     GetPage(name: AppPages.homePage, page:()=> HomeView(),binding: HomeBindings()),
   ];
 }
+

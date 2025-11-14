@@ -9,7 +9,8 @@ class HomeView extends GetView<HomeController>{
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Obx(()=>Text(controller.number.toString()),)
+        child: Obx(()=>Text(controller.number.toString(),
+          style: TextStyle(fontSize: 30),),)
       ),
       floatingActionButton: FloatingActionButton(onPressed: (){
         controller.increment();
